@@ -1,16 +1,16 @@
 #' @rdname cv_formats
 #' @export
-hyndman <- function(...) {
-  template <- system.file("rmarkdown", "templates", "hyndman",
+hyndman2 <- function(...) {
+  template <- system.file("rmarkdown", "templates", "hyndman2",
                           "resources", "hyndmantemplate.tex",
                           package = "vitae"
   )
-  set_entry_formats(hyndman_entries)
+  set_entry_formats(hyndman2_entries)
   cv_document(..., template = template)
 }
 
 
-hyndman_entries <- new_entry_formats(
+hyndman2_entries <- new_entry_formats(
   brief = function(what, when, with){
     paste(
       c(
