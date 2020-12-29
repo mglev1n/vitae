@@ -34,14 +34,14 @@ hyndman2_entries <- new_entry_formats(
         "\\end{minipage}%"
       ), collapse = "\n")
     })
-    where <- ifelse(where == "", "\\empty%", paste0(where, "\\par%"))
+    with <- ifelse(with == "", "\\empty%", paste0(with, "\\par%"))
 
     paste(c(
       "\\begin{longtable}{@{\\extracolsep{\\fill}}ll}",
       glue_alt(
 "<<when>> & \\parbox[t]{0.85\\textwidth}{%
-\\textbf{<<what>>}\\hfill{\\footnotesize <<with>>}\\newline
-  <<where>>
+\\textbf{<<what>>}\\hfill{\\footnotesize <<where>>}\\newline
+  <<with>>
   <<why>>
 \\vspace{\\parsep}}\\\\"),
       "\\end{longtable}"
