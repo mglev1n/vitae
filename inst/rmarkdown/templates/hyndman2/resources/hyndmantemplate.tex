@@ -221,6 +221,11 @@ $if(position)$\\[0.1cm]\large $position$\\[0.6cm]$else$\\[0.7cm]$endif$
 \makeatother
 
 % Section headings
+\usepackage{titlesec}
+
+\titleformat{\section}
+  {\normalfont\Large\bfseries}{\thesection}{1em}{}[{\titlerule[0.8pt]}]
+
 \titlelabel{}
 \titlespacing{\section}{0pt}{1.5ex}{0.5ex}
 \titleformat*{\section}{\color{headcolor}\large\sf\bfseries}

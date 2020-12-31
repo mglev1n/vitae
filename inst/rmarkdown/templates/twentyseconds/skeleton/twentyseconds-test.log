@@ -1,0 +1,51 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.12.27)  29 DEC 2020 16:40
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**/Volumes/BioBank_Research/BioBank_Research/vitae/tests/testthat/rendered/twen
+tyseconds-test.tex
+
+(/Volumes/BioBank_Research/BioBank_Research/vitae/tests/testthat/rendered/twent
+yseconds-test.tex
+LaTeX2e <2020-10-01> patch level 2
+L3 programming layer <2020-12-07> xparse <2020-03-03> (./twentysecondcv.cls
+Document Class: twentysecondcv 2018/11/24 CV class
+(/Users/mglevin/Library/TinyTeX/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(/Users/mglevin/Library/TinyTeX/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count177
+\c@section=\count178
+\c@subsection=\count179
+\c@subsubsection=\count180
+\c@paragraph=\count181
+\c@subparagraph=\count182
+\c@figure=\count183
+\c@table=\count184
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+
+! LaTeX Error: File `ClearSans.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.13 \RequirePackage
+                    [utf8]{inputenc}^^M 
+Here is how much of TeX's memory you used:
+ 225 strings out of 481330
+ 2976 string characters out of 5916820
+ 266364 words of memory out of 5000000
+ 17172 multiletter control sequences out of 15000+600000
+ 403430 words of font info for 27 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 56i,0n,62p,235b,36s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+!  ==> Fatal error occurred, no output PDF file produced!
